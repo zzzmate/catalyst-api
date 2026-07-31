@@ -55,7 +55,7 @@ The docs cover all available endpoints, query parameters, response formats, cach
 ## 📦 Self Hosting
 
 ```bash
-git clone https://github.com/yourusername/catalyst-api
+git clone https://github.com/zzzmate/catalyst-api
 cd catalyst-api
 npm install
 node server.js
