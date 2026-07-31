@@ -27,7 +27,7 @@
 
 ## 📖 Documentation
 
-Full documentation is available at **[catalyst.zzzmate.hu](https://catalyst.zzzmate.hu)**
+Full documentation is available at **[catalyst.zzzmate.hu](https://zzzmate.hu/catalyst)**
 
 The docs cover all available endpoints, query parameters, response formats, caching behavior and more.
 
