@@ -49,6 +49,7 @@ The docs cover all available endpoints, query parameters, response formats, cach
 | Provider | Status |
 |----------|--------|
 | MangaFire | ✅ Active |
+| MangaPill | ✅ Active |
 
 ---
 
