@@ -129,7 +129,7 @@ On headless Linux servers, Chromium may need system libraries:
     │   ├── mangapill/
     │   ├── mangadotnet/
     │   ├── mangago/
-    │   └── ...
+    │   └── .../
     └── routes/
         ├── mangafire/
         ├── mangapill/
@@ -137,7 +137,7 @@ On headless Linux servers, Chromium may need system libraries:
         ├── atsumoe/
         ├── weebcentral/
         └── mangago/
-
+        └── .../
 ---
 
 ## ⚙️ Caching
