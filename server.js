@@ -8,6 +8,7 @@ const mangafireRoutes = require("./routes/mangafire");
 const mangapillRoutes = require("./routes/mangapill");
 const mangadotnetRoutes = require("./routes/mangadotnet");
 const atsumoeRoutes = require("./routes/atsumoe");
+const weebcentralRoutes = require("./routes/weebcentral");
 
 app.get("/", (req, res) => {
   res.send("catalyst api started");
@@ -17,6 +18,7 @@ app.use("/mangafire", mangafireRoutes);
 app.use("/mangapill", mangapillRoutes);
 app.use("/mangadotnet", mangadotnetRoutes);
 app.use("/atsumoe", atsumoeRoutes);
+app.use("/weebcentral", weebcentralRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
