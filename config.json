@@ -264,5 +264,35 @@
       "Thriller": 19,
       "Tragedy": 5
     }
+  },
+  "mangago": {
+    "caching": {
+      "featured": {
+        "cacheMinutes": 30,
+        "cached": {
+          "default": "2026-08-01T11:23:22.454Z"
+        }
+      },
+      "popular": {
+        "cacheMinutes": 60,
+        "cached": {}
+      },
+      "new_chapters": {
+        "cacheMinutes": 15,
+        "cached": {
+          "default": "2026-08-01T11:24:49.431Z"
+        }
+      },
+      "top_genres": {
+        "cacheMinutes": 120,
+        "cached": {}
+      },
+      "info": {
+        "cacheMinutes": 15,
+        "cached": {
+          "tokyo_ghoul": "2026-08-01T11:37:58.503Z"
+        }
+      }
+    }
   }
 }
