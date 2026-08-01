@@ -58,6 +58,7 @@ The docs cover all available endpoints, query parameters, response formats, cach
 | MangaPill | ✅ Active |
 | MangaDotNet | ✅ Active |
 | AtsuMoe | ✅ Active |
+| WeebCentral | ✅ Active |
 
 </td>
 <td valign="top">
