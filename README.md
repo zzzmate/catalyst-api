@@ -46,12 +46,31 @@ The docs cover all available endpoints, query parameters, response formats, cach
 
 ## 🌐 Providers
 
+<table>
+<tr>
+<td valign="top">
+
+### 📚 Manga
+
 | Provider | Status |
 |----------|--------|
 | MangaFire | ✅ Active |
 | MangaPill | ✅ Active |
 | MangaDotNet | ✅ Active |
 | AtsuMoe | ✅ Active |
+
+</td>
+<td valign="top">
+
+### 🎬 Anime
+
+| Provider | Status |
+|----------|--------|
+| — | ❌ Coming soon... |
+
+</td>
+</tr>
+</table>
 
 ---
 
