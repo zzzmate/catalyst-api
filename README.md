@@ -27,7 +27,7 @@
 
 ## 📖 Documentation
 
-Full documentation is available at **[catalyst.zzzmate.hu](https://catalyst.zzzmate.hu)**
+Full documentation is available at **[zzzmate.hu/catalyst](https://zzzmate.hu/catalyst)**
 
 The docs cover all available endpoints, query parameters, response formats, caching behavior and more.
 
@@ -48,10 +48,6 @@ The docs cover all available endpoints, query parameters, response formats, cach
 ---
 
 ## 🌐 Providers
-
-<table>
-<tr>
-<td valign="top">
 
 ### 📚 Manga
 
@@ -75,18 +71,13 @@ The docs cover all available endpoints, query parameters, response formats, cach
 | [AtsuMoe](https://atsu.moe) | JSON API | Hot Updates, Recently Updated, Popular, Rising, Hot Arrivals, Browse, Info, Read, Proxy | ✅ Active |
 | [WeebCentral](https://weebcentral.com) | Cheerio | Hot Updates, Latest Updates, Recommendations, Browse, Info, Chapters, Read, Proxy | ✅ Active |
 
-</td>
-<td valign="top">
+---
 
 ### 🎬 Anime
 
 | Provider | Status |
 |----------|--------|
 | — | ❌ Coming soon... |
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -99,7 +90,84 @@ The docs cover all available endpoints, query parameters, response formats, cach
 
 ### Installation
 
-```bash
-git clone https://github.com/zzzmate/catalyst-api
-cd catalyst-api
-npm install
+    git clone https://github.com/zzzmate/catalyst-api
+    cd catalyst-api
+    npm install
+
+### Start
+
+    node server.js
+
+The API starts on `http://localhost:5177` by default. Change the port in `server.js`.
+
+### Linux Dependencies
+
+On headless Linux servers, Chromium may need system libraries:
+
+    sudo apt-get install -y \
+      ca-certificates fonts-liberation libasound2 libatk-bridge2.0-0 \
+      libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 \
+      libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 \
+      libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 \
+      libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 \
+      libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 \
+      libxtst6 lsb-release wget xdg-utils
+
+---
+
+## 🗂️ Project Structure
+
+    catalyst-api/
+    ├── server.js
+    ├── config.json
+    ├── cache/
+    │   ├── mangafire/
+    │   ├── mangapill/
+    │   ├── mangadotnet/
+    │   ├── mangago/
+    │   └── ...
+    └── routes/
+        ├── mangafire/
+        ├── mangapill/
+        ├── mangadotnet/
+        ├── atsumoe/
+        ├── weebcentral/
+        └── mangago/
+
+---
+
+## ⚙️ Caching
+
+Several endpoints cache responses to disk as JSON files. Cache durations are configurable per-endpoint in `config.json`.
+
+| Situation | Behavior |
+|-----------|----------|
+| First request | Fetches fresh data (slow for Puppeteer routes) |
+| Within cache window | Returns cached data instantly |
+| Cache expired | Re-fetches and updates cache |
+| Delete `cache/` folder | Forces all endpoints to re-fetch |
+
+Every cached response includes a `"cached": true/false` field so you always know the source.
+
+---
+
+## 🔧 Configuration
+
+All configuration lives in `config.json`. You can edit it while the server is running — it's read on every request.
+
+Key sections:
+- **Caching durations** per endpoint
+- **Genre/tag ID mappings** (MangaFire, AtsuMoe)
+- **Filter value maps** for human-readable names
+
+---
+
+## ⚠️ Disclaimer
+
+Catalyst API is a scraping-based API. All content is sourced from publicly available third-party websites. Catalyst does not host, store or distribute any copyrighted content. The cached files only contain metadata (titles, URLs, chapter lists) — never actual manga pages. Use at your own risk.
+
+---
+
+## 📄 License
+
+MIT © [zzzmate](https://github.com/zzzmate)
