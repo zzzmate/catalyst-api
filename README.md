@@ -50,6 +50,8 @@ The docs cover all available endpoints, query parameters, response formats, cach
 |----------|--------|
 | MangaFire | ✅ Active |
 | MangaPill | ✅ Active |
+| MangaDotNet | ✅ Active |
+| AtsuMoe | ✅ Active |
 
 ---
 
