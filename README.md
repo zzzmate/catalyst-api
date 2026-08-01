@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status" />
   <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
   <img src="https://img.shields.io/badge/node-%3E%3D18.0.0-green" alt="Node" />
-  <img src="https://img.shields.io/badge/docs-catalyst.zzzmate.hu-orange" alt="Docs" />
+  <img src="https://img.shields.io/badge/docs-zzzmate.hu/catalyst-orange" alt="Docs" />
 </div>
 
 <br />
