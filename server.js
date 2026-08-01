@@ -9,9 +9,14 @@ const mangapillRoutes = require("./routes/mangapill");
 const mangadotnetRoutes = require("./routes/mangadotnet");
 const atsumoeRoutes = require("./routes/atsumoe");
 const weebcentralRoutes = require("./routes/weebcentral");
+const mangagoRoutes = require("./routes/mangago");
 
 app.get("/", (req, res) => {
-  res.send("catalyst api started");
+  res.send(`
+    catalyst api started
+
+    Docs: https://zzmate.hu/catalyst
+  `);
 });
 
 app.use("/mangafire", mangafireRoutes);
@@ -19,6 +24,7 @@ app.use("/mangapill", mangapillRoutes);
 app.use("/mangadotnet", mangadotnetRoutes);
 app.use("/atsumoe", atsumoeRoutes);
 app.use("/weebcentral", weebcentralRoutes);
+app.use("/mangago", mangagoRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
