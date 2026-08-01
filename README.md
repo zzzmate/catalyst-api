@@ -75,9 +75,15 @@ The docs cover all available endpoints, query parameters, response formats, cach
 
 ### 🎬 Anime
 
-| Provider | Status |
-|----------|--------|
-| — | ❌ Coming soon... |
+#### 🔴 Puppeteer (Headless Browser)
+
+> Slower first request (~10-15s), bypasses protection and extracts streaming links. HLS streams with multiple quality options.
+
+| Provider | Endpoints | Status |
+
+|----------|-----------|--------|
+
+| [AniDB](https://anidb.app) | Hero, Trending, Currently Airing, Latest Updates, Most Popular, Fan Favourites, Top 10 Charts, Top TV/Movie/ONA/OVA/Special/Music, Browse, Info, Episodes & Stream | ✅ Active |
 
 ---
 
