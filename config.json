@@ -11,15 +11,11 @@
       },
       "info": {
         "cacheMinutes": 60,
-        "cached": {
-          "ln3n6_details_details": "2026-07-31T17:57:02.937Z"
-        }
+        "cached": {}
       },
       "read": {
         "cacheMinutes": 1440,
-        "cached": {
-          "ch_8831809": "2026-07-31T17:54:26.922Z"
-        }
+        "cached": {}
       }
     },
     "filters": {
@@ -166,6 +162,107 @@
       "Villainess": 268967,
       "Virtual Reality": 268968,
       "Zombies": 268969
+    }
+  },
+  "mangapill": {
+    "caching": {
+      "featured": {
+        "cacheMinutes": 15,
+        "lastCached": null
+      },
+      "new_chapters": {
+        "cacheMinutes": 10,
+        "lastCached": null
+      },
+      "trending": {
+        "cacheMinutes": 60,
+        "lastCached": null
+      },
+      "recent": {
+        "cacheMinutes": 30,
+        "lastCached": null
+      },
+      "search": {
+        "cacheMinutes": 30,
+        "cached": {}
+      },
+      "info": {
+        "cacheMinutes": 60,
+        "cached": {}
+      },
+      "read": {
+        "cacheMinutes": 1440,
+        "cached": {
+          "417_10025000_baka-to-test-to-shoukanjuu-chapter-25": "2026-07-31T20:12:08.038Z"
+        }
+      }
+    }
+  },
+  "mangadotnet": {
+    "caching": {
+      "latest_updates": {
+        "cacheMinutes": 10,
+        "cached": {
+          "all_p1": "2026-07-31T20:47:40.383Z",
+          "manhwa_p1": "2026-07-31T20:47:55.883Z",
+          "manga_p1": "2026-07-31T20:48:01.782Z"
+        }
+      },
+      "recently_added": {
+        "cacheMinutes": 30,
+        "cached": {}
+      },
+      "most_tracked": {
+        "cacheMinutes": 60,
+        "cached": {}
+      }
+    }
+  },
+  "atsumoe": {
+    "types": {
+      "Manga": "Manga",
+      "Manwha": "Manwha",
+      "Manhwa": "Manwha",
+      "Manhua": "Manhua",
+      "OEL": "OEL"
+    },
+    "statuses": {
+      "Ongoing": "Ongoing",
+      "Completed": "Completed",
+      "Finished": "Completed",
+      "Hiatus": "Hiatus",
+      "On Hiatus": "Hiatus",
+      "Canceled": "Canceled",
+      "Cancelled": "Canceled",
+      "Discontinued": "Canceled"
+    },
+    "genres": {
+      "Action": 39,
+      "Adult": 46,
+      "Adventure": 37,
+      "Boys Love": 180,
+      "BL": 180,
+      "Comedy": 6,
+      "Drama": 31,
+      "Fantasy": 36,
+      "Girls Love": 4,
+      "GL": 4,
+      "Hentai": 10,
+      "Historical": 45,
+      "Horror": 44,
+      "Martial Arts": 29,
+      "Mystery": 32,
+      "Physchological": 18,
+      "Psychological": 18,
+      "Romance": 9,
+      "Sci-Fi": 1,
+      "Scifi": 1,
+      "Slice of Life": 7,
+      "Smut": 41,
+      "Supernatural": 22,
+      "Superrnatural": 22,
+      "Thriller": 19,
+      "Tragedy": 5
     }
   }
 }
