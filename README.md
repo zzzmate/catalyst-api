@@ -82,6 +82,7 @@ The docs cover all available endpoints, query parameters, response formats, cach
 | Provider | Endpoints | Status |
 |----------|-----------|--------|
 | [AniDB](https://anidb.app) | Hero, Trending, Currently Airing, Latest Updates, Most Popular, Fan Favourites, Top 10 Charts, Top TV/Movie/ONA/OVA/Special/Music, Browse, Info, Episodes & Stream | ✅ Active |
+| [VidHawk](https://vidhawk.buzz/) | Stream & Subtitles, SUB/DUB | ✅ Active |
 
 ---
 
