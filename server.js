@@ -11,6 +11,7 @@ const atsumoeRoutes = require("./routes/atsumoe");
 const weebcentralRoutes = require("./routes/weebcentral");
 const mangagoRoutes = require("./routes/mangago");
 const anidbRoutes = require("./routes/anidb");
+const vidhawkRoutes = require("./routes/vidhawk");
 
 app.get("/", (req, res) => {
   res.send(`
@@ -27,6 +28,7 @@ app.use("/atsumoe", atsumoeRoutes);
 app.use("/weebcentral", weebcentralRoutes);
 app.use("/mangago", mangagoRoutes);
 app.use("/anidb", anidbRoutes);
+app.use("/vidhawk", vidhawkRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
